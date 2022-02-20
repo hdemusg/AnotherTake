@@ -1,0 +1,9 @@
+# Function dependencies, for example:
+# package>=version
+Flask==2.0.3
+Flask-Cors==3.0.8
+Flask-RESTful==0.3.7
+twilio==6.45.1
+requests==2.25.1
+scipy==1.4.1
+numpy==1.19.5
