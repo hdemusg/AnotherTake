@@ -12,8 +12,6 @@ def process(request):
         print(url, media_id, message_id)
         import requests
         from twilio.rest import Client
-        #account_sid = "ACf1ace56c36ef7f2030efde7685ef7af4"
-        #auth_token = "415cbb96b25df80d4776941fd6e4113d"
         client = Client(account_sid, auth_token)
         base = "https://%s:%s@api.twilio.com" % (account_sid, auth_token)
         message = client.messages(message_id).fetch()
