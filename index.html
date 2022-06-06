@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
   </head>
+
+  
+
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #EC7C26; color: black">
       <a class="navbar-brand" style="color: black;" href=""><b>AnotherTake</b></a>
@@ -19,9 +22,6 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" style="color: black;" href="./index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
           <!-- 
           <li class="nav-item">
             <a class="nav-link" style="color: black;" href="./demo.html">Demo</a>
@@ -55,85 +55,27 @@
         </div>
       </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4" id="demo">
-            <h2>Demo</h2>
-            <p>To demo AnotherTake you must be added to the verified list. You can be added to the verified list by 
-              clicking the following links to Direct Message either 
-              <a href="https://slack.com/app_redirect?channel=D0346U21M97" target="_blank">Parker</a> 
-              or <a href="https://slack.com/app_redirect?channel=D033RD6H2AZ" target="_blank">Sumedh</a> 
-              to be verified.
-            </p>
-            <!-- <p><a class="btn btn-secondary" href="#" role="button">Contact &raquo;</a></p> -->
-          </div>
-          <div class="col-md-4">
-            <h2>How To Use It</h2>
-            <p>Start by texting the Twilio bot, and upload your audio for thr Twilio bot to use. After you select the desired effects the Twilio bot will return the effects to you to download.</p>
-            <p><a class="btn btn-secondary" href="#tut" role="button">See How To Use It! &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>How It Works</h2>
-            <p>Once the phone number receives a memo it is passed to a GCP Cloud Function, which then returns an audio of the effects selected for the user to download.</p>
-            <p><a class="btn btn-secondary" href="#code" role="button">See How It Works! &raquo;</a></p>
-          </div>
+      <div class="jumbotron" style="background-color: #444" id="top">
+        <div class="container">
+          <h4 class="display-3">Try it out!</h4>
           
         </div>
+      </div>
+          
 
         <hr>
 
         <!-- START THE FEATURETTES -->
 
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Overview  <span class="text-muted">and Demo</span></h2>
-        <p class="lead">Written in Python, AnotherTake is an application that allows users to send a chat bot, Twilio, clips of audio and put effects onto it. To demo it you must be added to the verified list. See the <a href="#top">demo</a> section above for more information.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading" id="tut">How to use it. <span class="text-muted">It's Simple.</span></h2>
-        <p class="lead">Start by texting the Twilio bot, and upload your audio for thr Twilio bot to use. After you select the desired effects the Twilio bot will return the effects to you to download.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading" id="code">How it works. <span class="text-muted">It's amazing.</span></h2>
-        <p class="lead">Once the phone number receives a memo it is passed to a GCP Cloud Function, which then returns an audio of the effects selected for the user to download.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-    <footer class="container">
-    </footer>
-  </main>
-
     <!-- Optional JavaScript -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
